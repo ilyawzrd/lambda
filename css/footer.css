@@ -1,0 +1,83 @@
+footer {
+  background-color: #191919;
+}
+
+footer h4 {
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-top: 52px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.footer-about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex-basis: 30%;
+}
+
+.footer-about p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer-hours {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex-basis: 18%;
+}
+
+.footer-hours p {
+  color: #ffffff;
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer-hours span {
+  font-weight: bold;
+}
+
+.footer-location {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex-basis: 18%;
+}
+
+.footer-location span {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.special-divider {
+  margin-bottom: 16px;
+}
+
+.footer-credit-cards {
+  margin-top: 50px;
+}
+
+.footer-social {
+  margin-top: 50px;
+}

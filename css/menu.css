@@ -1,0 +1,92 @@
+.menu {
+  background: url("../img/pattern2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.menu-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.column-left {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.column-right {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.special-card-item {
+  padding: 5px;
+  border: 1px solid #cc9900;
+  position: relative;
+}
+
+.special {
+  position: absolute;
+  top: -30px;
+  right: -1px;
+  padding: 10px;
+  background: url("../img/specialbg.jpg") center no-repeat;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.menu-card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.menu-card h3 {
+  margin: 0;
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  color: #cc9900;
+  margin-bottom: 20px;
+}
+
+.item-title {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.item-title span {
+  color: #cc9900;
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+hr.style1 {
+  border-top: 1px solid #cc9900;
+}
+
+.card-item {
+  margin-top: 35px;
+  width: 100%;
+  padding: 5px;
+}
+
+.card-item p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,177 @@
+nav {
+  min-height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Gentium Book Basic", serif;
+  font-size: 21px;
+  color: #ffffff;
+  margin-bottom: 130px;
+}
+
+nav .brand {
+  margin-left: 3%;
+}
+
+nav .navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-basis: 60%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav .navbar-item {
+  position: relative;
+  overflow: hidden;
+  align-self: stretch;
+  padding: 0 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+nav .navbar-item a {
+  text-decoration: none;
+  margin: auto 0;
+  color: #ffffff;
+}
+
+nav .navbar-item:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #d1c47e;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+nav .navbar-item:hover:before, nav .navbar-item:focus:before, nav .navbar-item:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  z-index: 2;
+}
+
+nav .navbar-item:hover {
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+nav .social-paneltw, nav .social-panelyt, nav .social-panelfb {
+  display: inline-block;
+  background: url("../img/social-nav.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+nav .social-paneltw {
+  background-position: -3px -0px;
+  width: 19px;
+  height: 16px;
+}
+
+nav .social-panelyt {
+  background-position: -3px -19px;
+  width: 18px;
+  height: 21px;
+}
+
+nav .social-panelfb {
+  background-position: -3px -43px;
+  width: 10px;
+  height: 20px;
+}
+
+nav .social-panel {
+  margin-right: 3%;
+}
+
+header {
+  background: url("../img/promo-bg2.jpg") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.promo {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+}
+
+.promo h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 90px;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .promo h1 {
+    font-size: 50px;
+  }
+}
+
+.dividerpromo {
+  margin-top: 40px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 140px;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-black {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-right: 2%;
+}
+
+@media (max-width: 489px) {
+  .btn-black {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.btn-light {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid;
+}
+
+.btn-black:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn-light:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

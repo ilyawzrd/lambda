@@ -1,0 +1,116 @@
+.reservations {
+  background: url("../img/pattern1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.reservations-flex {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reservations-flex img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.reservations-form form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.reservations-form form label {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #cc9900;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reservations-form form input {
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.reservations-form form ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-style: italic;
+}
+
+.form-left {
+  display: flex;
+  flex-flow: column;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border: 2px solid #cc9900;
+}
+
+.form-right {
+  display: flex;
+  flex-flow: column;
+  align-self: flex-start;
+}
+
+.reservations-content {
+  display: flex;
+  flex-flow: column wrap;
+  align-self: flex-start;
+  align-items: center;
+  flex-basis: 40%;
+  margin-top: 100px;
+}
+
+.reservations-content h3 {
+  margin: 0;
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  color: #cc9900;
+  margin-bottom: 15px;
+}
+
+.reservations-content img {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.reservations-content p {
+  margin: 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c4c4c;
+  margin-bottom: 45px;
+}
+
+.form-btn {
+  margin-top: 33px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  background-color: #cc9900;
+  padding: 10px 60px;
+}
+
+.form-btn:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 940px) {
+  .reservation1 {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .reservation2 {
+    display: none;
+  }
+}
